@@ -9,13 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myBTN: UIButton!
     @IBOutlet weak var myLable: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        sai()
         // Do any additional setup after loading the view.
     }
 func sai()
 {}
 
+    
+    
+
+    
 }
 
